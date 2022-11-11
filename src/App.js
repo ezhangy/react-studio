@@ -23,8 +23,6 @@ function App() {
     setCart({...cart, [item.name]: {quantity: newQuantity, price: item.price}})
   }
 
-  console.log(Object.keys(cart).length === 0)
-
   return (
     <Grid container spacing={4} sx={{px: 12, py: 2}}>
       <Grid xs={9} spacing={10}>
